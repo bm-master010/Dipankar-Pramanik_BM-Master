@@ -819,4 +819,131 @@ section{
         transform: translateY(0px);
         opacity: 1;
     }
+
+}
+/* ==================== RESPONSIVE FIXES ==================== */
+
+/* Tablets and small laptops */
+@media (max-width: 992px) {
+    .home-content h1 {
+        font-size: 36px;
+    }
+    .about-text h2 {
+        font-size: 40px;
+    }
+    .contact-text h2 {
+        font-size: 60px;
+    }
+}
+
+/* Mobiles */
+@media (max-width: 768px) {
+
+    /* Navbar */
+    .heder {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 20px;
+    }
+    .navbar a {
+        display: block;
+        margin: 10px 0;
+        font-size: 18px;
+    }
+
+    /* Home */
+    .home {
+        flex-direction: column;
+        text-align: center;
+        padding: 100px 20px 0;
+    }
+    .home-content h1 {
+        font-size: 28px;
+    }
+    .home-content h3 {
+        font-size: 22px;
+    }
+    .home-content p {
+        font-size: 16px;
+    }
+
+    /* About */
+    .about {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .about-img img {
+        margin: 20px auto;
+        max-width: 80%;
+    }
+    .about-text h2 {
+        font-size: 32px;
+    }
+    .about-text h4 {
+        font-size: 20px;
+    }
+    .about-text p {
+        font-size: 16px;
+    }
+
+    /* Services */
+    .service-list {
+        grid-template-columns: 1fr;
+    }
+
+    /* Skills / container1 */
+    .container1 {
+        width: 100%;
+        margin: 0;
+        padding: 20px;
+    }
+
+    /* Projects */
+    .main-text h2 {
+        font-size: 36px;
+    }
+    .project1-content {
+        grid-template-columns: 1fr;
+    }
+
+    /* Contact */
+    .contact {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+    .contact-text h2 {
+        font-size: 40px;
+    }
+    .contact-form form input,
+    .contact-form form textarea {
+        width: 100%;
+    }
+
+    /* Footer */
+    .last-text p {
+        font-size: 14px;
+        padding: 15px;
+    }
+
+    /* Back to top */
+    .top {
+        margin-left: 85%;
+    }
+}
+
+/* Extra small phones */
+@media (max-width: 480px) {
+    .home-content h1 {
+        font-size: 22px;
+    }
+    .about-text h2 {
+        font-size: 24px;
+    }
+    .sub-title {
+        font-size: 28px;
+        padding-bottom: 30px;
+    }
+    .contact-text h2 {
+        font-size: 28px;
+    }
 }
