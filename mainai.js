@@ -76,16 +76,16 @@ function takeCommand(message){
         window.open("https://www.google.co.in/","_blank")
     }
     else if(message.includes("open whatsapp")){
+        speak("Opening Whatsapp...")
+        window.open("whatsapp://")
+    }
+    else if(message.includes("open whatsapp")){
         speak("Opening WhatsApp...")
         window.open("https://web.whatsapp.com/","_blank")
     }
     else if(message.includes("open calculator")){
         speak("Opening Calculator...")
         window.open("calculator://")
-    }
-    else if(message.includes("open whatsapp")){
-        speak("Opening Whatsapp...")
-        window.open("whatsapp://")
     }
     else if(message.includes("time")){
        let time=new Date().toLocaleString(undefined,{hour:"numeric",minute:"numeric"})
@@ -99,5 +99,6 @@ function takeCommand(message){
         speak(`That i found in internet regarding ${message.replace("master","")}`)
         window.open(`https://www.google.co.in/search?q=${message.replace("master","")}`)
     }
+
 
 }
