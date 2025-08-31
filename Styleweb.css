@@ -999,3 +999,103 @@ nav ul.active {
     padding: 10px 15px;
   }
 }
+@media (max-width: 768px) {
+  .heder, nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px !important;
+  }
+
+  .logo {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .navbar a, nav ul {
+    font-size: 16px;
+    margin-left: 0;
+    margin-bottom: 10px;
+    display: block;
+    position: static;
+    text-align: left;
+  }
+
+  .home {
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 5% 0;
+    height: auto !important;
+  }
+
+  .home-content h1 {
+    font-size: 2em;
+  }
+
+  .home-content h3 {
+    font-size: 1.3em;
+  }
+
+  .home-content p {
+    font-size: 1em;
+  }
+
+  .about {
+    display: block;
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .about-img img {
+    margin: 30px auto 0 auto;
+    padding-bottom: 10px;
+    max-width: 90vw;
+    height: auto;
+  }
+
+  .about-text h2, .sub-title, .main-text h2, .contact-text h2 {
+    font-size: 2em;
+    padding-bottom: 30px;
+  }
+
+  .container, .container1 {
+    width: 100% !important;
+    padding: 10px !important;
+    margin-left: 0 !important;
+  }
+
+  .service-list, .project1-content, .contact {
+    grid-template-columns: 1fr !important;
+    gap: 20px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .contact-text h2 {
+    font-size: 2em;
+  }
+
+  .contact-form form .send, .btn-box, .btn-box1 {
+    font-size: 1em;
+    width: 100%;
+    padding: 12px;
+  }
+
+  .main-text {
+    padding-top: 50px;
+    margin-top: 80px;
+  }
+
+  .last-text p {
+    font-size: 1em;
+    padding: 10px 0;
+    margin-top: 20px;
+  }
+
+  .top {
+    margin-left: 0;
+    right: 10px !important;
+    bottom: 20px !important;
+  }
+}
+
+
