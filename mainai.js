@@ -49,6 +49,9 @@ function takeCommand(message){
     else if(message.includes("who are you") || message.includes("who created you")){
         speak("I am virtual assistant, Created by Dipankar ")
     }
+    else if(message.includes("deepankar")){
+        speak("Oh, you should meet Dipankar Pramanik. He’s a talented full stack developer, especially strong in backend development, and also skilled in UI/UX design. He’s working on a web project called ‘Where Is My Bus?’ and is studying statistics to sharpen his analytical skills. He’s from Debipur,Nandigram, Purba Mednapur. He is also planning to start in business analytic tools in Kolkata head office. He’s very curious, practical, and always improving as a developer.")
+    }
     else if(message.includes("tell me about yourself")){
         speak("I am virtual assistant, Created by Dipankar ")
     }
@@ -102,4 +105,5 @@ function takeCommand(message){
 
 
 }
+
 
