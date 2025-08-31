@@ -46,7 +46,7 @@ function takeCommand(message){
     if(message.includes("hello") || message.includes("hey")){
         speak("Hello sir, how can I help you?")
     }
-    else if(message.includes("who are you") || message.includes("who create you")){
+    else if(message.includes("who are you") || message.includes("who created you")){
         speak("I am virtual assistant, Created by Dipankar ")
     }
     else if(message.includes("tell me about yourself")){
@@ -102,3 +102,4 @@ function takeCommand(message){
 
 
 }
+
